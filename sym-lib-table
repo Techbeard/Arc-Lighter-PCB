@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "DCPowerFire-rescue")(type "Legacy")(uri "${KIPRJMOD}/DCPowerFire-rescue.lib")(options "")(descr ""))
+)
