@@ -1,0 +1,3 @@
+[submodule "libs/LeoDJ-kicad"]
+	path = libs/LeoDJ-kicad
+	url = https://github.com/LeoDJ/LeoDJ-kicad
