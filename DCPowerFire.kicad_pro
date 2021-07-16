@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
+          "45_degree_only": false,
           "min_clearance": 0.127
         }
       },
@@ -90,10 +90,14 @@
         "copper_edge_clearance|99418700|59842500|00000000-0000-0000-0000-0000606bbe78|49afde73-a0d9-4b09-a29f-3477c7708eb6",
         "copper_edge_clearance|99543700|52217500|00000000-0000-0000-0000-0000606bbe7d|efad37f6-15c6-44d1-8159-ad4c1e3854bb",
         "copper_edge_clearance|99918700|59842500|00000000-0000-0000-0000-0000606bbe78|4b08685b-1f97-4ba5-974d-fdbed6a61e0e",
+        "hole_clearance|90565248|58572400|0a4aaa82-ee77-4ecf-aff4-225601b30d8d|d8cdfaa8-1589-4bad-9685-f2e441e8ccb5",
         "hole_clearance|90565248|58572400|21676e87-adb1-4d6d-889e-619b9b32433c|d8cdfaa8-1589-4bad-9685-f2e441e8ccb5",
         "hole_clearance|90565248|58572400|b0a6afd9-54d0-4ff4-ad6f-7942e10320a6|d8cdfaa8-1589-4bad-9685-f2e441e8ccb5",
+        "hole_clearance|90565248|58572400|cc573bf4-3471-4415-98e6-a801cdf1e964|d8cdfaa8-1589-4bad-9685-f2e441e8ccb5",
         "hole_clearance|92283491|58552861|3ccc7ad1-f01a-42c6-b587-582187f285d6|fc8fa5be-faac-44ac-b7a8-ab85f30089f2",
+        "hole_clearance|92283491|58552861|79d879e7-3789-4b7f-b3d3-a5e9a90e2bbf|fc8fa5be-faac-44ac-b7a8-ab85f30089f2",
         "hole_clearance|92283491|58552861|b6fef142-c286-430d-9b05-4a5a436328f3|fc8fa5be-faac-44ac-b7a8-ab85f30089f2",
+        "hole_clearance|92283491|58552861|fc0b60fd-d959-493a-a7aa-ee54fa468ad3|fc8fa5be-faac-44ac-b7a8-ab85f30089f2",
         "hole_clearance|92540000|58377000|4aceeecd-52cb-4834-b016-33b002594265|fc8fa5be-faac-44ac-b7a8-ab85f30089f2"
       ],
       "meta": {
@@ -153,8 +157,8 @@
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.08889999999999999,
-        "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.39999999999999997,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.44999999999999996,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
@@ -170,7 +174,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.4,
+          "diameter": 0.45,
           "drill": 0.2
         },
         {
